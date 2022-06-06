@@ -1,0 +1,53 @@
+ 
+  .categories {
+    display: flex;
+    flex-direction:row;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .title-container{
+    color: white;
+  }
+  
+
+    
+
+     
+    
+    
+  
+
+       
+       
+      
+    
+
+    .categories-container button {
+      padding: 0.8rem 2rem;
+      border-radius: 2rem;
+      background-color: var(--background);
+      color: var(--blue);
+      border: 0.1rem solid var(--blue);
+      font-weight: bolder;
+      transition: var(--transition);
+      
+    }
+
+      .categories-container button:hover {
+        background-color: var(--dark-blue);
+        color: var(--background);
+        border-color: var(--background);
+      }
+    
+  
+  @media only screen and (min-device-width: 768px) {
+    
+      .categories {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    } 
+  
+
